@@ -12,7 +12,7 @@ Finally, we save the extracted data in a csv with:
 
 
 # SENTIMENT ANALYSIS
-In "sentiment_analysis.ipynb", we have all the work we have done for the sentiment analysis. We start by prepocessing the text, we then look for the sentiment score of each review, and we plot a WordCloud to help visualize the possitive and negattive words. Finally, we use TF-IDF. 
+In "sentiment_analysis.ipynb", we have all the work we have done for the sentiment analysis. We start by prepocessing the text, we then look for the sentiment score of each review, and we plot a WordCloud to help visualize the possitive and negattive words. Finally, we use TF-IDF. For this matter, we use the library [NLTK](https://www.nltk.org/).
 
 ## TF-IDF
 Term Frequency-Inverse Document Frequency is a way to measeure how important a word is in a document compared to other documents. It starts by counting how often a word appears in one document. It downweight words that appear too often everywhere. If a word is frequent in one document, but rare in others, it gets a high score.
